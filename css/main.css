@@ -402,11 +402,13 @@ h5 {
 .projects-row {
   display: flex;
   flex-wrap: wrap;
+  padding: 1rem;
   justify-content: center;
 }
 
 .project-box {
   position: relative;
+  padding: 1rem;
   overflow: hidden;
   display: block;
   max-width: 51rem;
