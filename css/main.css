@@ -791,3 +791,7 @@ h5 {
   justify-content: center;
   
 }
+
+
+.pill-button { padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; cursor: pointer; border-radius: 5px; height: 5.2rem; font-weight: 700; /* Updated to match .btn-white */ font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.3em; margin: 0 1.2rem 1.6rem 0; color: var(--primary-accent); /* Updated to match .btn-white */ background: transparent; /* Updated to match .btn-white */ text-align: center; white-space: nowrap; transition: all 0.3s ease-in; border: 2px solid var(--primary-accent); } .pill-button:hover, .pill-button:focus { background: var(--primary-accent); border: 2px solid var(--primary-accent); color: var(--white-color); } .pill-button:active { background-color: #3c4446;
+}
