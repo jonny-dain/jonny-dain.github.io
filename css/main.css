@@ -725,8 +725,8 @@ h5 {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 40rem;
-  height: 40rem;
+  width: 36rem;
+  height: 36rem;
   border: 1px solid var(--primary-bg-color);
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -785,9 +785,9 @@ h5 {
 }
 .music-intro {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 550;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   justify-content: center;
-  color: var(--secondary-accent);
+  
 }
