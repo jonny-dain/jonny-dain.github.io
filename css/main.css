@@ -793,5 +793,35 @@ h5 {
 }
 
 
-.pill-button { padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; cursor: pointer; border-radius: 5px; height: 5.2rem; font-weight: 700; /* Updated to match .btn-white */ font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.3em; margin: 0 1.2rem 1.6rem 0; color: var(--primary-accent); /* Updated to match .btn-white */ background: transparent; /* Updated to match .btn-white */ text-align: center; white-space: nowrap; transition: all 0.3s ease-in; border: 2px solid var(--primary-accent); } .pill-button:hover, .pill-button:focus { background: var(--primary-accent); border: 2px solid var(--primary-accent); color: var(--white-color); } .pill-button:active { background-color: #3c4446;
+.pill-button {
+  padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; cursor: pointer; border-radius: 5px; font-weight: 700; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.3em; margin: 0 1.2rem 1.6rem 0; color: var(--primary-accent); background: transparent; text-align: center; white-space: nowrap; transition: all 0.3s ease-in; border: 1px solid var(--primary-accent);
+} .pill-button:hover, .pill-button:focus { background: var(--primary-accent); border: 1px solid var(--primary-accent); color: var(--white-color); } .pill-button:active { background-color: #3c4446;
+}
+
+.container-lg-art {
+  
+  padding-bottom: 5rem;
+}
+
+.art-info-title{
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.art-info{
+  font-size: 1.2rem;
+  line-height: 3rem;
+  font-weight: 300;
+  padding-bottom: 1.4rem;
+}
+.art-info-intro{
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.projects-row-art {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  
 }
