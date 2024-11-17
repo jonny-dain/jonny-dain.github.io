@@ -832,3 +832,32 @@ h5 {
   justify-content: center;
   
 }
+
+.project-box-sym {
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  display: grid;
+  width: 51rem;
+  height:25rem;
+}
+
+.project-box-sym  a {
+  display: inline-block;
+}
+
+.project-box-sym :hover .project-mask {
+  opacity: 1;
+  visibility: visible;
+}
+
+.project-box-sym :hover .project-mask .project-caption {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.project-box-sym :hover .project-img {
+  transform: scale(1.1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  width: 100%;
+}
