@@ -825,3 +825,10 @@ h5 {
   padding: 1rem;
   
 }
+.projects-row-coding {
+  display: grid;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+  
+}
