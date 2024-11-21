@@ -450,6 +450,7 @@ h5 {
 .project-img {
   transform: scale(1);
   width: 100%;
+  height: 100%;
   transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
 }
 
@@ -839,8 +840,8 @@ h5 {
   padding: 1rem;
   overflow: hidden;
   display: grid;
-  width: 51rem;
-  height:25rem;
+  width: 30rem;
+  height:20rem;
 }
 
 .project-box-sym  a {
